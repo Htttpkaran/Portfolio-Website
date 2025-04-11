@@ -1,64 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Karan Kumar - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Navigation Bar -->
-  <header>
-    <nav>
-      <h1>Karan Kumar</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karan Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <h1>Karan Kumar</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <h2>Hello, I'm Karan Kumar</h2>
+      <p>Aspiring Web Developer | HTML | CSS | JavaScript</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a BCA student passionate about web development. I enjoy building
+        user-friendly websites and learning new technologies.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
       </ul>
-    </nav>
-  </header>
+    </section>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <h2>Hello, I'm Karan Kumar</h2>
-    <p>Aspiring Web Developer | HTML | CSS | JavaScript</p>
-  </section>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <div class="project-container">
+        <!-- Project 1: Netflix Clone UI -->
+        <div class="project-card">
+          <h3>🎬 Netflix Clone UI</h3>
+          <p>
+            A clean and responsive Netflix homepage clone using only HTML & CSS.
+            Great for learning layouts, flexbox, and design replication.
+          </p>
+          <a href="https://htttpkaran.github.io/netflix-clone/" target="_blank"
+            >🔗 Live Demo</a
+          >
+          <a
+            href="https://github.com/Htttpkaran/netflix-clone"
+            target="_blank"
+            >📁 Source Code</a
+          >
+        </div>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a BCA student passionate about web development. I enjoy building user-friendly websites and learning new technologies.</p>
-  </section>
+        <!-- Project 2: To-Do List App -->
+        <div class="project-card">
+          <h3>📝 To-Do List App</h3>
+          <p>
+            A simple To-Do app built with HTML, CSS & JavaScript (Vanilla).
+            Allows users to add, complete, and delete tasks with a responsive
+            design.
+          </p>
+          <a href="https://htttpkaran.github.io/todo-app/" target="_blank"
+            >🔗 Live Demo</a
+          >
+          <a
+            href="https://github.com/Htttpkaran/todo-app"
+            target="_blank"
+            >📁 Source Code</a
+          >
+        </div>
+      </div>
+    </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: karankumar10986745@gmail.com</p>
+      <p>
+        <a href="https://github.com/Htttpkaran" target="_blank" id="github"
+          >GitHub</a
+        >
+      </p>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>Projects coming soon...</p>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: karankumar10986745@gmail.com </p>
-    <p><a href="https://github.com/Htttpkaran" target="_blank" id="github">GitHub</a> </p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Karan Kumar. All rights reserved.</p>
-  </footer>
-</body>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Karan Kumar. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
